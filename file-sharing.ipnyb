@@ -1,0 +1,54 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "8052d0b4-bf44-4c1d-9e98-46042a9963b5",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import pyqrcode\n",
+    "import png\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e3d4956c-5e21-495e-bd6f-f889315325dd",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "serving at port 8010\n",
+      "Type this in your Browser http://192.168.0.169:8010\n",
+      "or Use the QRCode\n"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "192.168.0.236 - - [09/Dec/2024 12:56:38] \"GET / HTTP/1.1\" 200 -\n",
+      "192.168.0.236 - - [09/Dec/2024 12:56:38] code 404, message File not found\n",
+      "192.168.0.236 - - [09/Dec/2024 12:56:38] \"GET /favicon.ico HTTP/1.1\" 404 -\n",
+      "192.168.0.236 - - [09/Dec/2024 12:56:46] \"GET /Pictures/ HTTP/1.1\" 200 -\n",
+      "192.168.0.236 - - [09/Dec/2024 12:56:48] \"GET /Pictures/Camera%20Roll/ HTTP/1.1\" 200 -\n",
+      "192.168.0.236 - - [09/Dec/2024 12:56:50] \"GET /Pictures/Camera%20Roll/WIN_20241130_13_46_09_Pro.jpg HTTP/1.1\" 200 -\n",
+      "192.168.0.236 - - [09/Dec/2024 12:56:56] \"GET /Pictures/Camera%20Roll/WIN_20241130_14_57_46_Pro.jpg HTTP/1.1\" 200 -\n",
+      "192.168.0.236 - - [09/Dec/2024 12:57:01] \"GET /Pictures/Camera%20Roll/WIN_20241130_14_57_52_Pro.jpg HTTP/1.1\" 200 -\n",
+      "192.168.0.236 - - [09/Dec/2024 12:57:02] \"GET /Pictures/Camera%20Roll/WIN_20241130_13_46_17_Pro.jpg HTTP/1.1\" 200 -\n",
+      "192.168.0.236 - - [09/Dec/2024 15:22:42] \"GET / HTTP/1.1\" 200 -\n",
+      "192.168.0.236 - - [09/Dec/2024 15:22:42] code 404, message File not found\n",
+      "192.168.0.236 - - [09/Dec/2024 15:22:42] \"GET /favicon.ico HTTP/1.1\" 404 -\n",
+      "192.168.0.236 - - [09/Dec/2024 15:22:59] \"GET /desktop.ini HTTP/1.1\" 200 -\n",
+      "192.168.0.236 - - [09/Dec/2024 15:23:04] \"GET /Pictures/ HTTP/1.1\" 200 -\n",
+      "192.168.0.236 - - [09/Dec/2024 15:23:08] \"GET /Pictures/Camera%20Roll/ HTTP/1.1\" 200 -\n",
+      "192.168.0.236 - - [09/Dec/2024 15:23:17] \"GET /Pictures/Camera%20Roll/WIN_20241130_14_57_37_Pro.jpg HTTP/1.1\" 200 -\n",
+      "192.168.0.236 - - [09/Dec/2024 15:23:25] \"GET /Pictures/Camera%20Roll/WIN_20241118_14_56_51_Pro.jpg HTTP/1.1\" 200 -\n",
+      "192.168.0.236 - - [09/Dec/2024 15:23:29] \"GET /Pictures/Camera%20Roll/WIN_20241130_14_58_00_Pro.jpg HTTP/1.1\" 200 -\n",
+      "192.168.0.236 - - [09/Dec/2024 15:23:34] \"GET /Desktop/ HTTP/1.1\" 200 -\n"
+     ]
+    }
+   ],
